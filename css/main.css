@@ -38,9 +38,11 @@ img {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   justify-content: space-between;
   margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .header {
@@ -388,10 +390,6 @@ img {
   margin-bottom: 94px;
 }
 
-.margin {
-  margin-top: 30px;
-}
-
 .icon-section2 {
   margin-right: 32px;
 }
@@ -401,7 +399,6 @@ img {
   border-radius: 4px;
   width: 270px;
   height: 120px;
-  margin-bottom: 30px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -413,6 +410,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-text);
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .ds-text {
@@ -421,7 +420,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-second-text);
-  margin-top: 10px;
   margin-right: 32px;
   box-sizing: border-box;
 }

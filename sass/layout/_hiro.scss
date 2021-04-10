@@ -55,9 +55,7 @@
     margin-top: 94px;
     margin-bottom: 94px;
 }
-.margin {
-    margin-top: 30px;
-}
+
 .icon-section2 {
     margin-right: 32px;
 }
@@ -66,7 +64,7 @@
     border-radius: 4px;    
     width: 270px;
     height: 120px;
-    margin-bottom: 30px;
+
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -77,6 +75,9 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-text);
+
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 .ds-text {
     font-weight: 400;
@@ -84,7 +85,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-second-text);
-    margin-top: 10px;
+
     margin-right: 32px;
     box-sizing: border-box;
 }
