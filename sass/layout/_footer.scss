@@ -105,10 +105,10 @@
     color: var(--border-color);
     padding-left: 16px;
     padding: 15px;
-    }
-    .footer-form-email::placeholder {
+    &::placeholder {
     color: rgba(117, 117, 117, 0.5);
-    }
+}
+}
 .footer-form-button {
         background: var(--focus-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -142,9 +142,11 @@
     height: 44px;
     border-radius: 50%; 
     transition: 250ms;
-    }
-    .b-radius2:hover,
-    .b-radius2:focus {
+
+    &:hover,
+    &:focus {
         background: var(--focus-color);
     }
+}
+
 
